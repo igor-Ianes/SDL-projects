@@ -128,6 +128,16 @@ _Here is how you set it up._
 
 Below are screenshots of the games running
 
+### TITLE SCREEN
+<div>
+  <img width="50%" src="images/blackjack1.png" alt="Sample image compressed 50%" title="Sample image compressed 50%">
+</div>
+
+### IN GAME
+<div>
+  <img width="50%" src="images/blackjack2.png" alt="Sample image compressed 50%" title="Sample image compressed 50%">
+</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
