@@ -58,7 +58,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -93,7 +92,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Foloow instructions on setting up your project locally.
+Follow the instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -114,11 +113,20 @@ _Here is how you set it up._
    git clonehttps://github.com/igor-Ianes/SDL-projects
    ```
 2. Install SDL2 packages
-
-2. Configure and execute `MAKEFILE`
    ```js
-   MAKE here goes your file
+   sudo apt-get install libsdl2-dev
    ```
+
+3. Configure and execute `MAKEFILE`
+   ```js
+   MAKE fileNmame
+   ```
+   
+4. To build manualy use
+   ```js
+   gcc fileName.c -lSDL2 -lm
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -127,16 +135,32 @@ _Here is how you set it up._
 ## Usage
 
 Below are screenshots of the games running
-
+<!--
 ### TITLE SCREEN
 <div>
   <img width="50%" src="images/blackjack1.png" alt="Sample image compressed 50%" title="Sample image compressed 50%">
 </div>
 
 ### IN GAME
-<div>
-  <img width="50%" src="images/blackjack2.png" alt="Sample image compressed 50%" title="Sample image compressed 50%">
+<div class = "row">
+    <img width = "50%" src="images/blackjack2.png" alt="Sample image compressed 50%" title="Sample image compressed 50%">
 </div>
+-->
+### BLACKJACK
+<p float="left">
+  <p align="middle">
+  <img src="images/blackjack1.png" width="45%" hspace="20"/>
+  <img src="images/blackjack2.png" width="45%" hspace="20"/> 
+</p>
+
+### BRICKS AND SNAKE
+<p float="left">
+  <p align="middle">
+  <img src="images/brick.png" width="45%" hspace="20"/>
+  <img src="images/snake.png" width="45%" hspace="20"/> 
+</p>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
